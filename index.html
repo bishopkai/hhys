@@ -133,7 +133,8 @@
             width: 100%;
             background: #ffffff;
             position: relative;
-            overflow: hidden;
+            overflow-y: auto;
+            max-height: 90vh;
         }
 
         dialog::backdrop {
@@ -193,8 +194,8 @@
 
             dialog {
                 max-width: 90%;
-                max-height: fit-content;
                 padding: 1rem;
+                max-height: 80vh;
             }
 
             dialog header {
